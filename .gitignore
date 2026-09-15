@@ -1,0 +1,15 @@
+# Inventory output contains organizational data - never commit it.
+output/
+*.json
+*.html
+*.csv
+
+!package.json
+
+# PowerShell / editor noise
+*.ps1xml
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
